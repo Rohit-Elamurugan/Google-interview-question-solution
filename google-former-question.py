@@ -40,8 +40,8 @@ def longestMatch(string:str,dictionary:list[str]):
             subsequences.append(element)
     return longestWord(subsequences)
 
-stringSequence = 'javascript'
-dictionary = ['art','vascular','avast','javas','vat']
+stringSequence = 'abppplee'
+dictionary = ["able", "ale", "apple", "bale", "kangaroo"]
 
 print(stringSequence)
 print(dictionary)
